@@ -4,7 +4,7 @@
 <a href="https://coveralls.io/github/romshark/sorted-list-bench">
     <img src="https://coveralls.io/repos/github/romshark/sorted-list-bench/badge.svg" alt="Coverage Status" />
 </a>
-<a href="https://goreportcard.com/report/github.com/sorted-list-bench/eventlog">
+<a href="https://goreportcard.com/report/github.com/sorted-list-bench">
     <img src="https://goreportcard.com/badge/github.com/romshark/sorted-list-bench" alt="GoReportCard">
 </a>
 
