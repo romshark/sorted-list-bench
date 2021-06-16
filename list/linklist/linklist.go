@@ -6,7 +6,7 @@ type any = interface{}
 type List struct {
 	sortFn func(i, j any) bool
 	// prev maps values to predecessor nodes
-	// or to the begining of the list defined by the actual *List
+	// or to the beginning of the list defined by the actual *List
 	prev      map[any]any
 	firstNode *node
 	len       int
