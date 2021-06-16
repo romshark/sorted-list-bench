@@ -2,6 +2,7 @@ package list
 
 import (
 	"github.com/romshark/sorted-list-bench/list/linklist"
+	"github.com/romshark/sorted-list-bench/list/skiplist"
 	"github.com/romshark/sorted-list-bench/list/slice"
 )
 
@@ -21,7 +22,8 @@ type Implementation struct {
 
 func Implementations(sortFn func(i, j interface{}) bool) []Implementation {
 	return []Implementation{
-		{"linklist", func() List { return linklist.New(sortFn) }},
 		{"slice", func() List { return slice.New(sortFn) }},
+		{"linklist", func() List { return linklist.New(sortFn) }},
+		{"skiplist", func() List { return skiplist.New() }},
 	}
 }

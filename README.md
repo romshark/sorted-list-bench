@@ -52,3 +52,22 @@ conf.delete = true
 2021/06/16 21:55:58 gc-cycles-completed:3
 2021/06/16 21:55:58 stw-ns-total:170.067µs
 ```
+
+### Skip List
+based on [github.com/huandu/skiplist](https://github.com/huandu/skiplist)
+```
+conf.implementation =  skiplist
+conf.min-value = 10
+conf.max-value = 5,000
+conf.list-size = 100,000
+conf.scan = true
+conf.delete = true
+2021/06/16 23:31:25 generating random input
+2021/06/16 23:31:25 random input generated (2.346152ms)
+2021/06/16 23:31:25 starting benchmark: *skiplist.List
+2021/06/16 23:31:25 finished (50.01825ms)
+2021/06/16 23:31:25 total-alloc:3,183,272
+2021/06/16 23:31:25 heap-objects-freed:95,038
+2021/06/16 23:31:25 gc-cycles-completed:0
+2021/06/16 23:31:25 stw-ns-total:0s
+```
