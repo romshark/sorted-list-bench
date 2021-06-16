@@ -1,3 +1,13 @@
+<a href="https://github.com/romshark/sorted-list-bench/actions?query=workflow%3ACI">
+    <img src="https://github.com/romshark/sorted-list-bench/workflows/CI/badge.svg" alt="GitHub Actions: CI">
+</a>
+<a href="https://coveralls.io/github/romshark/sorted-list-bench">
+    <img src="https://coveralls.io/repos/github/romshark/sorted-list-bench/badge.svg" alt="Coverage Status" />
+</a>
+<a href="https://goreportcard.com/report/github.com/sorted-list-bench/eventlog">
+    <img src="https://goreportcard.com/badge/github.com/romshark/sorted-list-bench" alt="GoReportCard">
+</a>
+
 # sorted-list-bench
 
 Example:
